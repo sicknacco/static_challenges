@@ -1,0 +1,47 @@
+body {
+  margin: 25px 50px;
+}
+
+header {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 15px 20px;
+}
+
+header h1 {
+  font-size: 25px;
+}
+
+header h2 {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: rgb(65, 60, 60);
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+  padding: 15px 10px
+}
+
+nav h3 {
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  padding: 15px;
+}
+
+article {
+  width: 80%
+}
+
+article img {
+  width: 100%
+}
