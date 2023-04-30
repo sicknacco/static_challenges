@@ -14,3 +14,36 @@ header > div{
   background-color: green;
   padding: 24px, 24px;
 }
+
+nav {
+  display: flex;
+  background-color: #1a2368;
+  height: 30px;
+  align-items: center;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: gray;
+  border-width: thin;
+}
+
+.museum_header {
+  display: flex;
+  height: 550px;
+  background-image: url('../images/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  text-align: left;
+  font-size: large;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+article {
+  color: white;
+  font-size: 14px;
+  background-color: black;
+}
