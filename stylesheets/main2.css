@@ -47,3 +47,24 @@ article {
   font-size: 14px;
   background-color: black;
 }
+
+.bottom_pics {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+}
+
+.bottom_pics > img {
+  width: 450px;
+  height: 200px;
+  vertical-align: bottom;
+  align-items: flex-start;
+  padding: 75px 30px 10px 75px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 14;
+}
